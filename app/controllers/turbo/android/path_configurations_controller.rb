@@ -49,6 +49,13 @@ module Turbo
                 uri: "turbo://fragment/users/sign_in",
                 context: "modal"
               }
+            },
+            {
+              patterns: ["/users/sign_up"],
+              properties: {
+                uri: "turbo://fragment/users/sign_up",
+                context: "modal"
+              }
             }
           ]
         }
